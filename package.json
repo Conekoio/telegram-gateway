@@ -11,7 +11,10 @@
     "lint-fix": "eslint 'src/**/*.ts' --fix",
     "prepublishOnly": "npm run lint && npm run build"
   },
-  "keywords": [],
+  "keywords": [
+    "telegram",
+    "gateway"
+  ],
   "author": "Coneko",
   "license": "MIT",
   "devDependencies": {
