@@ -1,6 +1,6 @@
 {
   "name": "tg-gateway",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Telegram gateway API client",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,6 +15,13 @@
     "telegram",
     "gateway"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/conekoio/tg-gateway.git"
+  },
+  "bugs": {
+    "url": "https://github.com/conekoio/tg-gateway/issues"
+  },
   "author": "Coneko",
   "license": "MIT",
   "devDependencies": {
