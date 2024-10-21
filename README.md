@@ -2,17 +2,17 @@
 Wrapper library for using Telegram authorization Gateway API (`https://core.telegram.org/gateway/api`)
 
 ## Installation
-> npm install tg-gateway
+`npm install tg-gateway`
 
 ## Usage and examples
-> import {TgGateway} from "tg-gateway"
+`import {TgGateway} from "tg-gateway"`
 
 ### Create instance
-> const gateway = new TgGateway(gateway_api_token)
+`const gateway = new TgGateway(gateway_api_token)`
 
 To access client methods use "client" property
 
-> gateway.client
+`gateway.client`
 
 #### checkSendAbility
 
@@ -54,9 +54,9 @@ More info at `https://core.telegram.org/gateway/api#report-delivery`
 
 To do so, use it like this
 
-> gateway.integrity.check(timestamp, signature, body)
+`gateway.integrity.check(timestamp, signature, body)`
 
-`True` will be returned if integrity check is ok
+`true` will be returned if integrity check is ok
 
 # Testing
 
