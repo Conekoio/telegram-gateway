@@ -60,4 +60,15 @@ To do so, use it like this
 
 # Testing
 
+Create `.tests.json` in the root directory, it's content should be:
+
+```
+{
+  "token": "your_token",
+  "phone": "your_phone"
+}
+```
+
+then run
+
 `npm run test`
