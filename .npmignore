@@ -3,5 +3,5 @@ tsconfig.json
 tests
 .idea
 .eslintrc.json
-.tests
+.tests.json
 .gitignore
