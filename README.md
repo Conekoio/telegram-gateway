@@ -17,7 +17,7 @@ To access client methods use "client" property
 #### checkSendAbility
 
 ```
-gateway.client.checkSendAbility({
+await gateway.client.checkSendAbility({
     phone_number: phone,
 })
 ```
@@ -25,7 +25,7 @@ gateway.client.checkSendAbility({
 #### sendVerificationMessage
 
 ```
-gateway.client.sendVerificationMessage({
+await gateway.client.sendVerificationMessage({
     phone_number: phone,
     code_length: 4
 })
@@ -34,7 +34,7 @@ gateway.client.sendVerificationMessage({
 #### checkVerificationStatus
 
 ```
-gateway.client.checkVerificationStatus({
+await gateway.client.checkVerificationStatus({
     request_id: verificationMessageResponse.request_id
 })
 ```
@@ -42,7 +42,7 @@ gateway.client.checkVerificationStatus({
 #### revokeVerificationMessage
 
 ```
-gateway.client.revokeVerificationMessage({
+await gateway.client.revokeVerificationMessage({
     request_id: verificationMessageResponse.request_id
 })
 ```
