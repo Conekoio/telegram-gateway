@@ -2,7 +2,7 @@
 Wrapper library for using Telegram authorization Gateway API (`https://core.telegram.org/gateway/api`)
 
 ## Installation
-`npm install tg-gateway`
+`npm install telegram-gateway`
 
 ## Usage and examples
 `import {TgGateway} from "tg-gateway"`
